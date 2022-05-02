@@ -1,13 +1,53 @@
+.btn-curr {
+  color: green;
+}
+.btn-unselected {
+  color: black;
+}
+
 div.hidden {
   display: none;
 }
 
-div.active {
-  border: 5px solid red;
+
+div.graph {
+  position: relative;
+  width: 75px;
+  height: 300px;
+}
+
+div.bar {
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 3px;
+}
+
+div.heads {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div.tails {
+  background-color: blue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+h2.win {
+  color: green;
+}
+
+h2.lose {
+  color: red;
 }
 
 img.bigcoin {
-  width: 50px;
+  width: 100px;
 }
 
 img.smallcoin {
