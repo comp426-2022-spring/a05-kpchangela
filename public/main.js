@@ -11,8 +11,6 @@ function changeFocus(button) {
   curr = id;
 }
 
-
-// Flip one coin and show coin image to match result when button clicked
 async function singleFlip() {
   const requestOptions = {
     method: 'GET',
